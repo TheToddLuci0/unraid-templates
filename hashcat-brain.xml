@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Hashcat-Brain</Name>
+  <Repository>thetoddluci0/hashcat-brain:edge</Repository>
+  <Registry>https://hub.docker.com/r/thetoddluci0/hashcat-brain</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/124473-support-hashcat-brain/</Support>
+  <Project>https://github.com/TheToddLuci0/hashcat-brain-docker</Project>
+  <Overview>Provides a containerized version of a Hashcat Brain server</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://hashcat.net/s/i/hashcat-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1654440754</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Password" Target="BRAIN_PASSWORD" Default="hashcat" Mode="" Description="Password for the brain server" Type="Variable" Display="always" Required="true" Mask="true">hashcat</Config>
+  <Config Name="Brain Port" Target="13743" Default="13743" Mode="tcp" Description="Port that the brain server will listen on - Make sure this matches your mappings!" Type="Port" Display="advanced" Required="true" Mask="false">13743</Config>
+</Container>
+COMMAND:
