@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Hashcat-Brain</Name>
-  <Repository>thetoddluci0/hashcat-brain:edge</Repository>
+  <Repository>thetoddluci0/hashcat-brain:latest</Repository>
   <Registry>https://hub.docker.com/r/thetoddluci0/hashcat-brain</Registry>
   <Network>bridge</Network>
   <MyIP/>
